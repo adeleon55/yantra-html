@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: black;
+
+  }
+/* .header{ 
+    width: 1000px;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+} */
+.header {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 250px;
+    text-align: center;
+    position: fixed;
+}
+
+.back-icon {
+    width: 70px;
+    height: 65px;
+    float: left;
+    margin-left: 350px;
+    background-color: white;
+}
+
+.buddha-icon{
+    height: 80px; 
+    margin-right: 400px;
+  }
+
+#section-container {
+    background-color: black;
+}
+.container {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    
+}
+
+.about-yantra {
+    margin-top: 50px;
+}
+
+#about-yantra-title {
+    text-align: center;
+  }
+
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.yantra-img {
+    width: 20%;
+    height: 20%;
+    margin-left: 35%;
+}
