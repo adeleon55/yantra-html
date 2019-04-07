@@ -4,13 +4,24 @@
         <title>How to use Yantra</title>
         <link rel="stylesheet" href="how.css" media="screen">
     </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <body>
+
+        <div class="menu">
+                <div class="container">
+                        <div class="col-33">
+                                <button class="back-icon" onclick="goBack()"><img  src="img/back.svg"></button>
+                        </div>
+                        <div class="col-33">
+                                <img class="buddha-icon" src="img/buddha image.jpeg">
+                        </div>
+                        <div class="col-33">
+
+                        </div>
+                </div>
+        </div> 
         <section id='section-container'>
                 <div id="container">
-                <div id="how-top">
-                        <button class="back-icon" onclick="goBack()"><img  src="img/back.svg"></button>
-                        <img  class="buddha-icon" src="img/buddha image.jpeg">
-                </div>
                 <div class="how-yantra">
                         <p id="how-yantra-title">How to use Yantra</p>
                         <p>1. Place the yantra in front of you. Make
@@ -67,9 +78,6 @@
                                 even when you are not using it for meditation practice.</p>
                         <p>~Enjoy</p>
                 </div>
-                <section id="back">
-                        <button class="back-icon-footer" onclick="goBack()"><img  src="img/back.svg"></button>
-                </section>
                 <script>
                         function goBack() {
                                 window.history.back();

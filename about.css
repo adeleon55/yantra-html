@@ -6,42 +6,39 @@
     background: black;
 
   }
-/* .header{ 
-    width: 1000px;
-    height: 100px;
-    background-color: black;
-    position: fixed;
-} */
-.header {
+
+.menu {
     background-color: black;
     width: 100%;
     height: 100px;
-    margin-bottom: 250px;
-    text-align: center;
+    /* margin-bottom: 50px; */
     position: fixed;
-}
-
-.back-icon {
-    width: 70px;
-    height: 65px;
-    float: left;
-    margin-left: 350px;
-    background-color: white;
-}
-
-.buddha-icon{
-    height: 80px; 
-    margin-right: 400px;
-  }
-
-#section-container {
-    background-color: black;
 }
 .container {
     width: 600px;
     margin: auto;
     background-color: white;
     
+}
+.col-33 {
+    background-color: black
+}
+.back-icon {
+    width: 70px;
+    height: 65px;
+    float: left;
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+.buddha-icon{
+    height: 95px; 
+    margin-left: 180px;
+    padding-bottom: 10px;
+  }
+
+#section-container {
+    background-color: black;
 }
 
 .about-yantra {
@@ -50,6 +47,7 @@
 
 #about-yantra-title {
     text-align: center;
+    padding-top: 120px;
   }
 
 
